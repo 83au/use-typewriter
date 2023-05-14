@@ -1,8 +1,16 @@
 import { useState, useEffect } from 'react';
 
-function useTypewriter({ text = 'Hello World!', direction = 'forward', repeat = 0, speed = 200 }) {
-  text = text ?? 'Hello World!';
+const typewriterProps = {
+  text: 'Hello World!',
+  direction: 'forward',
+  repeat: 0,
+  speed: 200,
+};
 
+function useTypewriter(props) {
+  props = props ?? typewriterProps;
+
+  const { text, direction, repeat, speed } = props;
   const textArr = Array.isArray(text) ? text : [text];
 
   const [message, setMessage] = useState('');
