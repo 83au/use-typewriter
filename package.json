@@ -1,0 +1,23 @@
+{
+  "name": "@bsherman-dev/use-typewriter",
+  "version": "1.0.0",
+  "description": "A versatile custom React hook for adding a typing effect to text",
+  "main": "use-typewriter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/83au"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "typewriter",
+    "typing-effect",
+    "js",
+    "javascript"
+  ],
+  "author": "Beau Sherman",
+  "license": "ISC"
+}
