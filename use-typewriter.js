@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const typewriterProps = {
+const defaultProps = {
   text: 'Hello World!',
   direction: 'forward',
   repeat: 0,
@@ -8,7 +8,7 @@ const typewriterProps = {
 };
 
 function useTypewriter(props) {
-  props = props ?? typewriterProps;
+  props = props ?? defaultProps;
 
   const { text, direction, repeat, speed } = props;
   const textArr = Array.isArray(text) ? text : [text];
