@@ -4,7 +4,7 @@
 
 ## Installation
 
-You can install React useTypewriter with one simple command
+You can install React useTypewriter with one command
 
 ```shell
 
@@ -24,7 +24,7 @@ npm i @bsherman-dev/use-typewriter
 
 ## Examples
 
-### Basic example
+### Most Basic example
 
 ```jsx
 import useTypewriter from '@bsherman-dev/use-typewriter';
